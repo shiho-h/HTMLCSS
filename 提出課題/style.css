@@ -30,7 +30,7 @@ main {
 
 .box-img1{
 	height: 150px;
-	background-image: url(img/flow01.png);
+	background-image: url(img9/flow01.png);
 	background-size: cover;
 	background-position: bottom;
 
@@ -38,14 +38,14 @@ main {
 
 .box-img2{
 	height: 150px;
-	background-image: url(img/flow02.png);
+	background-image: url(img9/flow02.png);
 	background-size: cover;
 	background-position: bottom;
 }
 
 .box-img3{
 	height: 150px;
-	background-image: url(img/flow03.png);
+	background-image: url(img9/flow03.png);
 	background-size: cover;
 	background-position: bottom;
 }
@@ -65,21 +65,27 @@ main {
 
 
 @media screen and (max-width: 768px){
-	.main {
+	main {
 	width: 100%;
 	margin: 50px auto;
-}
+	}
 	.main-box {
 	float: none;
 	width: 90%;
 	margin-bottom: 20px;
-	padding: 10px;
-	position: relative;
-	border: 1px solid #eee;
 	}
 	.main-box:last-child{
 	margin-bottom: 0;
+	}
+.box-img1{
+	height: 300px;
 }
 
+.box-img2{
+	height: 300px;
+}
 
+.box-img3{
+	height: 300px;
+}
 }
